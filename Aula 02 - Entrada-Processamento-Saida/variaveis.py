@@ -15,6 +15,9 @@ presente: bool = False # Declarando uma variável do tipo bool
 # Como saber o tipo de uma variável:
 print(type(nome))
 
+# Como saber o endereço de memória de uma variável:
+print(hex(id(nome)))
+
 # Trocando os valores de uma variável:
 a: int = 1
 b: int = 2
