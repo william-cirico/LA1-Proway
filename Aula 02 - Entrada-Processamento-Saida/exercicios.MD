@@ -17,10 +17,10 @@ Ex.: exercicio01.py
                    5    6     7    8    9     
                10  11   12    13   14   15  16
            17  18  --   --    --   --   --  --
-	a) 98
-	b) 99
-	c) 100
-	d) 101
+	a) 98  
+	b) 99  
+	c) 100  
+	d) 101  
 2) Mostrar a mensagem "Oi, meu nome é **<seu_nome>**" na tela.
 **Obs.: O nome deve estar armazenado em uma variável.**
 
@@ -29,11 +29,11 @@ O menu deve estar no seguinte formato:
 
     Cadastro de funcionários
     
-    1) Cadastrar funcionários
-    2) Listar funcionários
-    3) Editar funcionário
-    4) Remover funcionário
-    5) Sair
+    a) Cadastrar funcionários  
+    b) Listar funcionários  
+    c) Editar funcionário  
+    d) Remover funcionário  
+    e) Sair  
     
     Digite a opção desejada: 
     
@@ -44,11 +44,11 @@ O menu deve estar no seguinte formato:
 	 4. Mostre o valor de nome
 
 5) Crie um script que receba o nome, idade, peso, altura e telefone de vocês e mostra essas informações na tela do console. 
-Nome: **<nome\>**
-Idade: **<idade\>**
-Peso: **<peso\>**
-Altura: **<altura\>**
-Telefone: **<telefone\>**
+Nome: **<nome\>**  
+Idade: **<idade\>**  
+Peso: **<peso\>**  
+Altura: **<altura\>**  
+Telefone: **<telefone\>**  
 
 6) Armazene em variáveis as seguintes informações sobre o último livro que você leu: 
 	 - Título   
@@ -56,46 +56,48 @@ Telefone: **<telefone\>**
 	 - Autor  
 	 - Data de publicação
 	
-	Após isso mostre na tela essas informações no seguinte formato:
-	Título: <titulo\>
-	Edição: <edição\>  
-	Autor: <autor\>
-	Data de publicação: Data de publicação
+	Após isso mostre na tela essas informações no seguinte formato:  
+	Título: <titulo\>  
+	Edição: <edição\>   
+	Autor: <autor\>  
+	Data de publicação: Data de publicação  
 
 7) Seguindo os padrões de nomeação, crie variáveis que guardem as seguintes informações: 
     * Uma data de nascimento 
     * Quantidade de filhos que uma pessoa possui 
     * O usuário que está logado no seu sistema 
 
+
 8) Qual é a saída de dados (output) do seguinte algoritmo:
-    nome = "João"
-    print(f"Olá {1}") # ?
-    print(f"Olá {"nome"}") # ?
-    print("Olá {nome}") # ?
+    nome = "João"  
+    print(f"Olá {1}") # ?  
+    print(f"Olá {"nome"}") # ?  
+    print("Olá {nome}") # ?  
 
 9) Considerando o seguinte algoritmo:
-     x = 10
-     y = 8
-     area = (x * y) / 2 + 3 ** 4
-     print(area)
+     x = 10  
+     y = 8  
+     area = (x * y) / 2 + 3 ** 4  
+     print(area)  
      
 	Qual é a saida de dados (output)?
 
 10) Quais são os valores de a e x que serão exibidos?
-a = 2
-x = 1 + (a *= 2)
-print(a, x)
+a = 2  
+x = 1 + (a *= 2)  
+print(a, x)  
 
 11) Qual é o resultado de cada operação? 
-	A) (10 - 2) * 3 + 1 # ?
-	B) 10 ** 2 - 4 / 3 # ?
-	C) 6 / 3 + 1 # ?
-	D) 10 % 3 + 1 * 2 # ?
+	a) (10 - 2) * 3 + 1 # ?  
+	b) 10 ** 2 - 4 / 3 # ?  
+	c) 6 / 3 + 1 # ?  
+	d) 10 % 3 + 1 * 2 # ?  
 
 12) Crie um algoritmo que:  
-    1 Receba a altura e a largura de um retângulo
-    2 Calcule a área e o perímetro do retângulo 
-    3 Mostre a área e o perímetro calculados 
+    1. Receba a altura e a largura de um retângulo
+    2. Calcule a área e o perímetro do retângulo 
+    3. Mostre a área e o perímetro calculados 
+
 
 13) Crie um algoritmo que receba dois números e mostre na tela o resultado da soma entre esses dois números. 
 
@@ -119,20 +121,20 @@ A fórmula para calcular o volume é: (4/3) * pi * R^3. Considere (atribua) para
 20) Escreva um script que receba a base e altura de triângulo e calcule a sua área.
 
 21) Construa um script que leia o preço de um produto, o percentual de desconto e calcule
-o valor a pagar e o valor do desconto.
+o valor a pagar e o valor do desconto.  
 **Entrada:**
-10
-10
-**Saída:**
-Total = 9
-Desconto = 1
+10  
+10  
+**Saída:**  
+Total = 9  
+Desconto = 1  
 
 22) Faça um programa que leia o nome de um vendedor, o seu salário fixo e o total de vendas efetuadas por ele no mês (em dinheiro).
-Sabendo que este vendedor ganha 15% de comissão sobre suas vendas efetuadas, informar o total a receber no final do mês, com duas casas decimais.
-**Entrada:**
-João
-500
-1230.3
-**Saída:**
-Total = R$ 684.54
+Sabendo que este vendedor ganha 15% de comissão sobre suas vendas efetuadas, informar o total a receber no final do mês, com duas casas decimais.  
+**Entrada:**  
+João  
+500  
+1230.3  
+**Saída:**  
+Total = R$ 684.54  
 
