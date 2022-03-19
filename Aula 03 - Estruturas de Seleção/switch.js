@@ -1,3 +1,4 @@
+// Estrutura se seleção Switch
 diaDaSemana = 2
 
 switch (diaDaSemana) {
