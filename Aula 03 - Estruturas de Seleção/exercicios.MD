@@ -109,7 +109,7 @@ está fora da faixa".
 8) Considerando o valor de A = 10 e B = 20, responda a saída das seguintes expressões:  
 print(A > 10 and B <= 20) # ?    
 print(A > 10 or B <= 20) # ?  
-print(A == 10 or B > 20) && B == 20) # ?  
+print(A == 10 or B > 20) and B == 20) # ?  
 print(None or 2 or "") # ?  
 print(0 and 1) # ?  
 
@@ -139,7 +139,7 @@ print(0 and 1) # ?
 	**Saída:**  
 	O maior número é 12
 
-9) Reescreva o script abaixo utilizando o operador ternário:
+10) Reescreva o script abaixo utilizando o operador ternário:
 
 	resultado = None  
 	a, b = 10, 2  
@@ -152,41 +152,41 @@ print(0 and 1) # ?
 	print(resultado)  
 
 
-10) Escreva um programa que leia as medidas dos lados de um triângulo e
+11) Escreva um programa que leia as medidas dos lados de um triângulo e
 escreva se ele é Equilátero, Isósceles ou Escaleno. Sendo que:
 * Triângulo Equilátero: possui os 3 lados iguais.
 * Triângulo Isósceles: possui 2 lados iguais.
 * Triângulo Escaleno: possui 3 lados diferentes.
 
-11) Leia um número fornecido pelo usuário. Se esse número for positivo, calcule a raiz
+12) Leia um número fornecido pelo usuário. Se esse número for positivo, calcule a raiz
 quadrada do número. Se o número for negativo, mostre uma mensagem dizendo que o
 número é inválido.
 
-12) Escreva um script para ler um número e informar se ele é divisível por 5.
+13) Escreva um script para ler um número e informar se ele é divisível por 5.
 
-13) Leia um número. Se o número for positivo imprima a raiz quadrada desse número. Do contrário, imprima o número ao quadrado.
+14) Leia um número. Se o número for positivo imprima a raiz quadrada desse número. Do contrário, imprima o número ao quadrado.
 
-14) Leia o salario de um trabalhador e o valor da prestação de um empréstimo. Se a prestaçao
+15) Leia o salario de um trabalhador e o valor da prestação de um empréstimo. Se a prestaçao
 for maior que 20% do salário imprima: “empréstimo não concedido”, caso contrario imprima:
 “empréstimo concedido”.
 
-15) Desenvolva um programa que recebe do usuário o placar de um jogo de futebol (os gols de cada time) e informe se o resultado foi um empate, a vitória do primeiro time ou do segundo time.
+16) Desenvolva um programa que recebe do usuário o placar de um jogo de futebol (os gols de cada time) e informe se o resultado foi um empate, a vitória do primeiro time ou do segundo time.
 
-16) Desenvolva um programa que receba do usuário a sua idade e informe a situação de voto dele ("Não precisa votar", "Voto opcional", "Voto obrigatório").
+17) Desenvolva um programa que receba do usuário a sua idade e informe a situação de voto dele ("Não precisa votar", "Voto opcional", "Voto obrigatório").
 
-17) Faça um script que leia três números e mostre-os em ordem decrescente.
+18) Faça um script que leia três números e mostre-os em ordem decrescente.
 
-18) Para doar sangue é necessário ter entre 18 e 67 anos. Faça um script que pergunte a idade de uma pessoa e diga se ela pode doar sangue ou não.  
+19) Para doar sangue é necessário ter entre 18 e 67 anos. Faça um script que pergunte a idade de uma pessoa e diga se ela pode doar sangue ou não.  
 Use o operador lógicos OU (or).
 
-19) Escreva um programa que leia um inteiro entre 1 e 7 e imprima o dia da semana correspondente a este número. Isto é, domingo se for 1, segunda-feira se for 2, e assim por diante.
+20) Escreva um programa que leia um inteiro entre 1 e 7 e imprima o dia da semana correspondente a este número. Isto é, domingo se for 1, segunda-feira se for 2, e assim por diante.
 
-20) Escreva um programa que leia um inteiro entre 1 e 12 e imprima o mês correspondente a este número. Isto é, Janeiro se for 1, Fevereiro se 2, e assim por diante.
+21) Escreva um programa que leia um inteiro entre 1 e 12 e imprima o mês correspondente a este número. Isto é, Janeiro se for 1, Fevereiro se 2, e assim por diante.
 
-21) Faça um script que pergunte em que turno você estuda. Peça para digitar M-matutino ou V-Vespertino ou N-Noturno.  
+22) Faça um script que pergunte em que turno você estuda. Peça para digitar M-matutino ou V-Vespertino ou N-Noturno.  
 Imprima a mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!" ou "Valor Inválido!", conforme o caso.
 
-22) Escreva um algoritmo que peça o salário de uma pessoa e imprima o salário líquido, segunda a tabela a seguir:
+23) Escreva um algoritmo que peça o salário de uma pessoa e imprima o salário líquido, segunda a tabela a seguir:
 <table>
 	<tr>
 		<td>Menor ou igual a R$ 600.00</td>
