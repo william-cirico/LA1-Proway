@@ -1,5 +1,5 @@
 '''
-Matrizes sã
+Matrizes são vetores bidimensionais, ou seja, possuem linhas e colunas.
 '''
 matriz = [
     [1, 0, 0],
