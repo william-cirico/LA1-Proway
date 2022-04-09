@@ -1,0 +1,47 @@
+1) Crie uma função que receba uma array e retorne o primeiro e o último elemento desse array como um novo array.
+O array pode ter qualquer tamanho.
+
+
+2) Crie uma função que recebe um número como parâmetro e retorne uma string com o símbolo "#" na quantidade
+especificada no parâmetro.
+Exemplo:
+mostra_simbolo(10) // ##########
+
+
+3) Escreva uma função que receba dois parâmetros. O primeiro é o elemento que repetirá, enquanto o segundo é
+o número de vezes que haverá a repetição. Um array deve ser retornado.
+Exemplo:
+repetir_elemento("oi", 3) // ["oi", "oi", "oi"]
+
+
+4) Escreva um script que receba o ano em que você nasceu e calcule a sua idade. Utilize uma função que retorna a
+idade.
+
+
+5) Faça uma função que receba um array de 5 elementos. Modifique o vetor[1] = 10 e vetor[2] = 30 e retorne o vetor modificado. 
+Ao final mostre na tela o vetor original e o vetor modificado.
+
+
+6) Elabore uma função que receba um vetor e retorne outro vetor que tenha todos os números que são pares e estão em
+índices pares do vetor.
+
+
+7) Desenvolva uma função que receba como parâmetro um número de 1 a 10. Internamente, na função, será
+gerado um número aleatório de 1 a 10. A função deverá retornar se o parâmetro de entrada foi igual ao número
+sorteado internamente. Se o valor fornecido foi o sorteado, retorne "Parabéns! O número sorteado foi o X". Se
+não for igual, retorne "Que pena! O número sorteado foi o X". X é o número que foi sorteado.
+
+
+8) A fim de manter o calendário anual ajustado com o movimento de translação da Terra, criou-se os anos
+bissextos, que têm 366 dias em vez dos 365 presentes nos anos normais.
+Para determinar se um ano é bissexto, é necessário saber se ele é multiplo de 4. Não pode ser múltiplo de 100,
+exceto se for também múltiplo de 400.
+Com isso em mente, desenvolva uma função que recebe um número correspondente a um ano e retorna se ele
+é bissexto ou não (True ou False). Após isso mostre na tela uma mensagem "O ano <ano_digitado> é bissexto" 
+ou "O ano <ano_digitado> não é bissexto".
+Exemplo:
+checar_ano_bissexto(2020) // true
+checar_ano_bissexto(2100) // false
+
+# Desafio
+9)
