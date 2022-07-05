@@ -1,16 +1,15 @@
-# 14)Faça um programa que receba duas notas do usuário, 
-# calcule a média e mostre o resultado na tela.
-# INPUT
-# N1, N2
+# Escreva um algoritmo que armazene o valor 10 em uma variável A 
+# e o valor 20 em uma variável B. A seguir 
+# (utilizando apenas atribuições entre variáveis) troque os seus conteúdos 
+# fazendo com que o valor que está em A passe para B e vice-versa. Ao final, 
+# mostrar na tela os valores que ficaram armazenados nas variáveis.
+a: int = 10
+b: int = 20
+aux: int = a
 
-# PROCESSAMENTO
-# Calcular a média = (N1 + N2) / 2
+a = b
+b = aux
 
-# OUTPUT
-# Média
-nota1: float = float(input("Digite a nota 1: "))
-nota2: float = float(input("Digite a nota 2: "))
+# a, b = b, a
+print(a, b)
 
-media: float = (nota1 + nota2) / 2
-
-print(f"A média é: {media:.2f}")

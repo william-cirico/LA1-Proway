@@ -1,8 +1,15 @@
-# Elabore um script que leia um número e 
-# apresente o antecessor, o número e o sucessor.
-numero: int = int(input("Digite um número inteiro: "))
+# Escreva um script que receba a base e altura de triângulo e calcule a sua área.
+# INPUT
+# receba a base e altura de triângulo
 
-antecessor = numero - 1
-sucessor = numero + 1
+# PROCESSAMENTO
+# calcular a área do triângulo -> base * altura / 2
 
-print(antecessor, numero, sucessor)
+# OUTPUT
+# Mostrar a área do triângulo
+base: float = float(input("Digite a base do triângulo: "))
+altura: float = float(input("Digite a altura do triângulo: "))
+
+area: float = base * altura / 2
+
+print(f"A área do triângulo é: {area:.2f}")

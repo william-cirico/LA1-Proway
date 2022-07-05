@@ -1,13 +1,13 @@
-# Faça um programa que calcule e mostre o volume de uma esfera sendo 
-# fornecido o valor de seu raio R. A fórmula para calcular o 
-# volume é: (4/3) * pi * R^3. Considere (atribua) para pi o valor 3.14159.
-import math
+# Construa um script que leia o preço de um produto, o percentual 
+# de desconto e calcule o valor a pagar e o valor do desconto
+preco: float = float(input("Digite o preço do produto: "))
+percentual_desconto: float = float(input("Digite o percentual de desconto do produto: "))
 
+desconto: float = percentual_desconto / 100 * preco
+valor_total: float = preco - desconto
 
-PI = 3.14159
-R: float = float(input("Digite o valor do raio: "))
-
-volume: float = 4 / 3 * math.pi * R ** 3
-
-print(f"O volume da esfera é: {volume:.2f}")
+print(f"Preço: {preco}")
+print(f"% de desconto: {percentual_desconto}")
+print(f"Valor total: {valor_total}")
+print(f"Desconto: {desconto}")
 

@@ -1,13 +1,19 @@
-# Construa um script que leia o preço de um produto, o percentual 
-# de desconto e calcule o valor a pagar e o valor do desconto
-preco: float = float(input("Digite o preço do produto: "))
-percentual_desconto: float = float(input("Digite o percentual de desconto do produto: "))
+"""
+O tempo que um ônibus leva para chegar a um destino qualquer é 15 min. Receba a hora e o minuto de 
+saída do ônibus e mostre na tela qual será o horário de chegada ao destino.
+"""
+hora = int(input("Digite uma hora: "))
+minuto = int(input("Digite uma minuto: "))
 
-desconto: float = percentual_desconto / 100 * preco
-valor_total: float = preco - desconto
+minuto_saida = minuto + 15
+hora_saida = hora
 
-print(f"Preço: {preco}")
-print(f"% de desconto: {percentual_desconto}")
-print(f"Valor total: {valor_total}")
-print(f"Desconto: {desconto}")
+if (minuto_saida >= 60):
+    minuto_saida -= 60
+    hora_saida += 1
+
+if (hora_saida > 23):
+    hora_saida = 0
+
+print(f"{hora_saida:02}:{minuto_saida:02}")
 

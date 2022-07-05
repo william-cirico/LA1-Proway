@@ -1,15 +1,16 @@
-# Escreva um script que receba a base e altura de triângulo e calcule a sua área.
-# INPUT
-# receba a base e altura de triângulo
+# Faça um programa que leia o nome de um vendedor, o seu salário fixo 
+# e o total de vendas efetuadas por ele no mês (em dinheiro). Sabendo que 
+# este vendedor ganha 15% de comissão sobre suas vendas efetuadas, informar o 
+# total a receber no final do mês, com duas casas decimais.
+nome: str = input("Digite o nome do vendedor: ")
+salario_fixo: float = float(input("Digite o salário do vendedor: "))
+total_vendas: float = float(input("Digite o total de vendas do vendedor: "))
 
-# PROCESSAMENTO
-# calcular a área do triângulo -> base * altura / 2
+salario_total: float = salario_fixo + total_vendas * .15
 
-# OUTPUT
-# Mostrar a área do triângulo
-base: float = float(input("Digite a base do triângulo: "))
-altura: float = float(input("Digite a altura do triângulo: "))
+print(f"O salário total do funcionário é: {salario_total:.2f}")
 
-area: float = base * altura / 2
 
-print(f"A área do triângulo é: {area:.2f}")
+
+
+

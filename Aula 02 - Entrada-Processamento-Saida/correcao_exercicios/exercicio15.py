@@ -1,27 +1,26 @@
-# Faça um programa que receba 3 números, calcule o quadrado de cada um deles e 
-# mostre o resultado na tela.
-# INPUT
-# N1, N2, N3
+# Considerando que cada mês possui 30 dias, faça um algoritmo que:
 
-# PROCESSAMENTO
-# quadrado de cada um deles (N1, N2, N3)
-
-# OUTPUT
-# Mostrar o resultado
+# Receba uma quantidade n de meses do usuário.
+# Calcule o total de dias com base nessa quantidade n de meses.
+# Mostre o resultado na tela.
 
 # INPUT
-numero1: int = int(input("Digite o número 1: "))
-numero2: int = int(input("Digite o número 2: "))
-numero3: int = int(input("Digite o número 3: "))
+# Quantidade de meses (n)
 
 # PROCESSAMENTO
-quadrado1: int = numero1 ** 2
-quadrado2: int = numero2 ** 2
-quadrado3: int = numero3 ** 2
+# Calcule o total de dias -> 30 * n
 
 # OUTPUT
-print(f"""
-O quadrado número {numero1} é: {quadrado1}
-O quadrado número {numero2} é: {quadrado2}
-O quadrado número {numero3} é: {quadrado3}
-""")
+# Mostrar a quantidade de dias
+
+# CONSTANTE -> Uma "variável" que não pode ser alterada
+DIAS_NO_MES: int = 30
+
+# INPUT
+n: int = int(input("Digite a quantidade de meses: "))
+
+# PROCESSAMENTO
+total_dias = n * DIAS_NO_MES
+
+#  OUTPUT
+print(f"A quantidade de dias em {n} meses é: {total_dias}")

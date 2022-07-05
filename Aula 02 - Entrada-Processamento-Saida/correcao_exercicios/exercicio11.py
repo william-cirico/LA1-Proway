@@ -1,4 +1,18 @@
-(10 - 2) * 3 + 1 # 25
-10 ** 2 - 4 / 3 # 98.666666666
-6 / 3 + 1 # 3.0
-10 % 3 + 1 * 2 # 3
+# Crie um algoritmo que receba dois números e mostre na tela o resultado da 
+# soma entre esses dois números.
+
+# INPUT
+# receba dois números
+
+# PROCESSAMENTO
+# soma entre esses dois números
+
+# SAÍDA
+# mostre na tela o resultado da 
+# soma
+numero1: int = int(input("Digite o número 1: "))
+numero2: int = int(input("Digite o número 2: "))
+
+soma: int = numero1 + numero2
+
+print(f"A soma entre {numero1} e {numero2} é: {soma}")

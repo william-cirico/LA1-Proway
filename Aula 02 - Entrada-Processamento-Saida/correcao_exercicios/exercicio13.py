@@ -1,18 +1,27 @@
-# Crie um algoritmo que receba dois números e mostre na tela o resultado da 
-# soma entre esses dois números.
-
+# Faça um programa que receba 3 números, calcule o quadrado de cada um deles e 
+# mostre o resultado na tela.
 # INPUT
-# receba dois números
+# N1, N2, N3
 
 # PROCESSAMENTO
-# soma entre esses dois números
+# quadrado de cada um deles (N1, N2, N3)
 
-# SAÍDA
-# mostre na tela o resultado da 
-# soma
+# OUTPUT
+# Mostrar o resultado
+
+# INPUT
 numero1: int = int(input("Digite o número 1: "))
 numero2: int = int(input("Digite o número 2: "))
+numero3: int = int(input("Digite o número 3: "))
 
-soma: int = numero1 + numero2
+# PROCESSAMENTO
+quadrado1: int = numero1 ** 2
+quadrado2: int = numero2 ** 2
+quadrado3: int = numero3 ** 2
 
-print(f"A soma entre {numero1} e {numero2} é: {soma}")
+# OUTPUT
+print(f"""
+O quadrado número {numero1} é: {quadrado1}
+O quadrado número {numero2} é: {quadrado2}
+O quadrado número {numero3} é: {quadrado3}
+""")

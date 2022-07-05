@@ -1,26 +1,13 @@
-# Considerando que cada mês possui 30 dias, faça um algoritmo que:
+# Faça um programa que calcule e mostre o volume de uma esfera sendo 
+# fornecido o valor de seu raio R. A fórmula para calcular o 
+# volume é: (4/3) * pi * R^3. Considere (atribua) para pi o valor 3.14159.
+import math
 
-# Receba uma quantidade n de meses do usuário.
-# Calcule o total de dias com base nessa quantidade n de meses.
-# Mostre o resultado na tela.
 
-# INPUT
-# Quantidade de meses (n)
+PI = 3.14159
+R: float = float(input("Digite o valor do raio: "))
 
-# PROCESSAMENTO
-# Calcule o total de dias -> 30 * n
+volume: float = 4 / 3 * math.pi * R ** 3
 
-# OUTPUT
-# Mostrar a quantidade de dias
+print(f"O volume da esfera é: {volume:.2f}")
 
-# CONSTANTE -> Uma "variável" que não pode ser alterada
-DIAS_NO_MES: int = 30
-
-# INPUT
-n: int = int(input("Digite a quantidade de meses: "))
-
-# PROCESSAMENTO
-total_dias = n * DIAS_NO_MES
-
-#  OUTPUT
-print(f"A quantidade de dias em {n} meses é: {total_dias}")
