@@ -11,4 +11,4 @@ print("Hello world!")
 print("Essa é a primeira linha.\nEssa é a segunda linha.")
 
 # Podemos mostrar o valor das operações diretamente através do print()
-print(10 + 2)
+print(10 + 2) 
