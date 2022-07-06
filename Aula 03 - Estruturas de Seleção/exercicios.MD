@@ -212,3 +212,4 @@ Imprima a mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!" ou "Valor Inválido!
 		<td>30%</td>
 	</tr>
 </table>
+Tente não utilizar o operador *and*
