@@ -172,7 +172,14 @@ for maior que 20% do salário imprima: “empréstimo não concedido”, caso co
 
 16) Desenvolva um programa que recebe do usuário o placar de um jogo de futebol (os gols de cada time) e informe se o resultado foi um empate, a vitória do primeiro time ou do segundo time.
 
-17) Desenvolva um programa que receba do usuário a sua idade e informe a situação de voto dele ("Não precisa votar", "Voto opcional", "Voto obrigatório").
+17) Desenvolva um programa que receba do usuário a sua idade e informe a situação de voto dele ("Não pode votar", "Voto opcional", "Voto obrigatório").
+Voto Opcional:
+- maiores de 16 anos e menores de 18 anos;
+- maiores de 70 anos;
+Voto obrigatório:
+- maior que 18 e menor que 70
+Não pode votar:
+- menor de 16 anos
 
 18) Faça um script que leia três números e mostre-os em ordem decrescente.
 
