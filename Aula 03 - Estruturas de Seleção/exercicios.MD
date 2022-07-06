@@ -60,13 +60,13 @@ o quadrado do número digitado. No final do script mostrar na tela "Programa fin
 	**Entrada:**  
 	10  
 	**Saída**:  
-	5  
 	Programa finalizado...  
 	
 	**Exemplo 02**  
 	**Entrada:**  
 	9   
-	**Saída**:  
+	**Saída**: 
+	81
 	Programa finalizado...  
 
 6) Escreva um script que receba um número, se esse número for par mostre na tela
@@ -213,3 +213,4 @@ Imprima a mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!" ou "Valor Inválido!
 	</tr>
 </table>
 Tente não utilizar o operador *and*
+
