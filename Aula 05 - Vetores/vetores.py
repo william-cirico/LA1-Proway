@@ -36,6 +36,8 @@ print(varios_tipos[2])
 
 # Para mostrar o último elemento do vetor
 print(varios_tipos[-1])
+print(varios_tipos[len(varios_tipos) - 1])
+print(varios_tipos[varios_tipos.length - 1])
 
 # Para modificar um item no vetor
 varios_tipos[0] = "b"
@@ -81,11 +83,13 @@ for numero in numeros[::-1]:
     print(numero)
 
 # Para transformar uma string em vetor
-frase = "Olá mundo"
+frase = "Olá mundo, uma boa semana!"
 fraseEmVetor = frase.split(" ")
+["Olá", "mundo,", "uma", "boa", "semana!"]
 
 # Para transformar um vetor em string
-novaFrase = " ".join(fraseEmVetor)
+novaFrase = "T".join(fraseEmVetor)
+"OláTmundo,TumaTboaTsemana!"
 
 # Exercícios de Exemplo
 '''
@@ -96,8 +100,12 @@ dos dois vetores lidos.
 '''
 vetor1, vetor2, vetor_diferenca, vetor_soma, vetor_multiplicacao = [], [], [], [], []
 for i in range(3):
-    vetor1.append(int(input(f"Digite o {i + 1}º número do vetor 1: ")))
-    vetor2.append(int(input(f"Digite o {i + 1}º número do vetor 2: ")))
+    valor_1 = int(input(f"Digite o {i + 1}º número do vetor 1: "))
+    valor_2 = int(input(f"Digite o {i + 1}º número do vetor 2: "))
+
+    vetor1.append(valor_1)
+    vetor2.append(valor_2)
+    
     vetor_diferenca.append(vetor1[i] - vetor2[i])
     vetor_soma.append(vetor1[i] + vetor2[i])
     vetor_multiplicacao.append(vetor1[i] * vetor2[i])
